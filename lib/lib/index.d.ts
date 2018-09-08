@@ -27,11 +27,11 @@ export default class cplayer extends EventEmitter {
     readonly duration: number;
     readonly currentTime: number;
     constructor(options: ICplayerOption & ICplayerViewOption);
-    private initializeEventEmitter(element);
-    private removeEventEmitter(element);
+    private initializeEventEmitter;
+    private removeEventEmitter;
     private eventHandlers;
     setCurrentTime(currentTime: number | string): void;
-    private isPlaying();
+    private isPlaying;
     openAudio(audio?: IAudioItem): void;
     toggleMode(): void;
     setMode(playmode: string): void;

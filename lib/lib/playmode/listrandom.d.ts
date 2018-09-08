@@ -10,6 +10,6 @@ export declare class listrandomPlaymode implements Iplaymode {
     nowpoint(): number;
     to(point: number): void;
     addMusic(item: IAudioItem): void;
-    private randomPoint();
+    private randomPoint;
     removeMusic(item: IAudioItem): boolean;
 }
