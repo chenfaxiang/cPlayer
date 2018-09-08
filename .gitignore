@@ -2,3 +2,4 @@
 yarn*
 .DS_Store
 example/
+.idea
